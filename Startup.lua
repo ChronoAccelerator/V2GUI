@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
 local Forums = Library.new("GUI Picker")
 
