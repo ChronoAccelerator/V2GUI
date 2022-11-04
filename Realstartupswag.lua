@@ -7,6 +7,7 @@ Library:New({
     Yes = function()
 		setclipboard("discord.gg/RuF8M9hcCQ")
     game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Comet V3", Text = "Copied Discord!"})
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/V2GUI/main/Startup.lua"))()	
 	end,
 	Cancel = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/V2GUI/main/Startup.lua"))()
