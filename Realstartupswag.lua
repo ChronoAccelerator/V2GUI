@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://www.soggy-ware.cf/Libs/PromptGu
 Library:New({
 	Title = "Join Discord!",
     Footer = "Join the discord for private V3 GUI!",
-    Text = "Proceed to join the discord? Yes = Yes, No = Take me to the GUI!",
+    Text = "Proceed to join the discord? Thanks to all and credits to Vynixu!",
     Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=8412871039&x=100&y=100&format=png",
     Yes = function()
 		setclipboard("discord.gg/RuF8M9hcCQ")
